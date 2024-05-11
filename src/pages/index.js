@@ -15,6 +15,7 @@ function HomepageHeader() {
         <Heading as="h1" className="hero__title">
           Flavius Dinu
         </Heading>
+        <img src="/img/avatar.jpeg" alt="Flavius Dinu" style={{ width: '200px', height: 'auto' }} />
         <p className="hero__subtitle">{siteConfig.tagline}</p>
         <div className={styles.buttons}>
           <Link
