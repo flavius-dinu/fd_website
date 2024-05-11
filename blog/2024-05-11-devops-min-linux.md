@@ -202,7 +202,8 @@ apt-get/yum/dnf/zypper remove package_name
 # Update packages  
 apt-get/yum/dnf/zypper update
 ```
-4. **Process Management**  
+4. **Process Management**
+
 It’s important to understand how to list, kill, and prioritize processes using commands and tools like `ps`, `top`, `htop`, and `kill`.
 
 
@@ -211,7 +212,9 @@ It’s important to understand how to list, kill, and prioritize processes using
 ps aux  
 
 ```
-5. **VI**VI is a text editor available by default on almost every UNIX system and has been a staple of system administration for decades.
+5. **VI**
+
+VI is a text editor available by default on almost every UNIX system and has been a staple of system administration for decades.
 
 It has different modes, but the most relevant are:
 
@@ -269,7 +272,8 @@ sudo <command>
 # Editing sudo configuration safely:  
 sudo visudo
 ```
-9. **Logging**:
+
+9. **Logging**
 
 Understand where log files are typically stored (`/var/log/`) and tools that can assist in reading them, like `less`, `tail`, `head`.
 
@@ -290,13 +294,13 @@ tail -n 5 file.txt
 # Display the first 5 lines of file.txt  
 head -n 5 file.txt
 ```
-10. **Networking Basics**:
+10. **Networking Basics**
 
 Understand basic networking concepts like IP addressing, subnets, ports, and protocols. You can check out this [tutorial](https://www.softwaretestinghelp.com/computer-networking-basics/), for more info.
 
 Know how to configure and manage network interfaces, routes, and firewall rules. Tools and files like `/etc/network/interfaces`, `iptables` might come into play here.
 
-11. **Secure Shell (SSH**):  
+11. **Secure Shell (SSH**)
 SSH is fundamental for remote management. Know how to use `ssh` for remote login, `scp` for file transfer, and concepts about SSH keys.
 
 You can generate a ssh key by using the `ssh-keygen` command. This will create a directory called `.ssh` and two keys inside of it(a public one and a private one).
@@ -309,7 +313,7 @@ If you are using the default names, you won’t need to specify the path to the 
 
 `ssh -i path_to_private_key user@server`
 
-12. **Disk and Storage**:   
+12. **Disk and Storage**
 It’s import to know how you can view disk usage (`df`, `du`), manage partitions and filesystems (`fdisk`, `mkfs`), and mount/unmount storage devices.
 
 ```
